@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+
+
+body{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+background-color: #696969; 
+}
+
+li, a, button{ 
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: seashell;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+
+
+
+/* NAV BAR */
+
+
+.content{
+    background-color: #373737;
+}
+
+
+.logo {
+    cursor: pointer;
+    color: white;
+    background-color: #373737;
+}
+
+
+.logo .click{
+    cursor: pointer;
+    color: white;
+}
+
+
+
+
+.nav__links{
+    list-style: none;
+    margin-top: 4%;
+
+}
+
+.nav__links li{
+    display:inline-block;
+    padding: 0px 20px;
+}
+
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color:orange;
+}
+
+.cta button {
+    margin-left: 20px;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s; 
+}
+
+.cta button:hover{
+    background-color: rgba(0, 136, 169, 0,8);
+}
+
+
+
+/* HOME */
+
+
+.home{
+    text-align: center;
+    margin-top: 0%;
+    width:auto;
+    height: 760px;
+    background-image: url(img/home-phto.jpg);
+   }
+
+.home h1{
+    padding-top: 140px;
+    color: aliceblue;
+}
+
+.home p{
+    color: aliceblue;
+    }
+
+
+
+#home_offert h5 {
+    color: white;
+    
+}
+
+#home_offert span{
+    color: orange;
+}
+
+
+ .home button  {
+    font-size: 12px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color:#948a8a ;
+    color: aliceblue;
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+
+/*   PRODUCT   */
+
+.container{
+    width:100%;
+    height: 800px;
+    margin: auto;
+    border-radius: 3px;
+}
+
+
+
+.home2{
+display: flex;
+text-align: center;
+float: left;
+padding-top: 40px;
+padding-bottom: 28px;
+margin-bottom: 20px;
+max-width: 600px; 
+}
+
+
+.home2 h2{
+    padding-top: 5%;
+    text-align: center;
+    color: orange;
+    
+}
+
+.container{
+    display: flex;
+}
+
+
+.boxes{
+    margin-top: 60px;
+    margin-left: 10%;
+}
+
+.card{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+
+
+#Product .card{
+    padding: 50px 30px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+    transition: all 0.2s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+  }
+
+
+#Product .card:hover{
+    transform: scale(0.9);
+  }
+
+
+
+/*  SERVICES */
+
+.services{
+    background-color: #696969;
+    width: auto;
+    height: 800px;
+}
+
+
+.services{
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+
+.services_cafe{
+    margin-top: auto;
+    float: left;
+    height: 760px;
+    width: 800px;
+    background-image: url(img/cafe.jpg);
+}
+
+.services_text{
+    text-align: right;
+    margin-right: 22%;
+}
+
+
+
+
+/*   CONTACT   */
+
+.contact{
+    height: 600px;
+    width: auto;
+    background-color: rgb(39, 39, 39);
+    text-align: center;
+    padding-top: 4%;
+    color: white;
+}
+
+
+.contact_label{
+    padding-top: 4%;
+    padding-left: 840px;
+}
+
+.contact p{
+    padding-top: 4%;
+}
+
+.contact a{
+    padding-left: 20px;
+}
+
+
+/* FORM  */ 
+ 
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form button{
+    padding: 1;
+}
+
+/* FOOTER */ 
+
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    background-color: #373737;
+    text-align: center;
+    float: bottom;
+  }
+  
+  .footer-bottom{
+    color: white;
+  }
+  .footer-bottom .footer{
+      text-align: center;
+      margin-top: 10px;
+  }
+
+
+
+
