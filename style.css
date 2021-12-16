@@ -152,7 +152,10 @@ float: left;
 padding-top: 40px;
 padding-bottom: 28px;
 margin-bottom: 20px;
-max-width: 600px; 
+max-width: 600px;
+position: relative;
+flex-direction: row;
+
 }
 
 
@@ -163,14 +166,14 @@ max-width: 600px;
     
 }
 
-.container{
-    display: flex;
-}
+
 
 
 .boxes{
     margin-top: 60px;
     margin-left: 10%;
+    padding: 0px;
+    align-self: auto;
 }
 
 .card{
@@ -198,6 +201,12 @@ max-width: 600px;
   }
 
 
+  @media screen and (max-width: 499px) {
+    .home2 {
+      font-size: .8rem;
+    }
+  }
+
 
 /*  SERVICES */
 
@@ -217,17 +226,24 @@ max-width: 600px;
 .services_cafe{
     margin-top: auto;
     float: left;
+    align-items: center;
     height: 760px;
-    width: 800px;
+    width: 45%;
     background-image: url(img/cafe.jpg);
 }
 
 .services_text{
-    text-align: right;
-    margin-right: 22%;
+    text-align: center;
+    
 }
 
+.services_describe{
+    padding-top: 100px;
+}
 
+.services h3{
+    padding-top: 2px;
+}
 
 
 /*   CONTACT   */
@@ -244,11 +260,11 @@ max-width: 600px;
 
 .contact_label{
     padding-top: 4%;
-    padding-left: 840px;
+    padding: auto;
 }
 
 .contact p{
-    padding-top: 4%;
+    padding-top: 2%;
 }
 
 .contact a{
